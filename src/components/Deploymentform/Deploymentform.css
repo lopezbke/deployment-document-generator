@@ -1,9 +1,19 @@
 .deploymentForm {
+    margin-bottom: 20px;
 }
 
-.gridFour {
+.gridTwo {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
     column-gap: 10px;
     
+}
+
+.printBtnDiv {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.headingDiv {
+    text-align: center;
 }
