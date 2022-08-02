@@ -1,1 +1,16 @@
 .Userinputform {}
+
+.generateFormBtnDiv {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gridTwo {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;  
+}
+
+.modal-header-div {
+    text-align: right;
+}

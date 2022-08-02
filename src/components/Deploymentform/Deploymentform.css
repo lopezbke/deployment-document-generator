@@ -5,8 +5,7 @@
 .gridTwo {
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 10px;
-    
+    column-gap: 10px;  
 }
 
 .printBtnDiv {

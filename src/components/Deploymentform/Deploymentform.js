@@ -8,9 +8,9 @@ const printToPdf = () => {
 
 const Deploymentform = () => {
   return (
-    <div className='deploymentForm'>
+    <div className='deploymentForm is-hidden' id='deploymentForm'>
      <div className='headingDiv'>
-      <h1 className='is-size-2'>Deployment Form</h1>
+      <h1 className='is-size-3'>Deployment Form</h1>
      </div>
       <div className='box'>
         <div className='gridTwo'>
@@ -55,7 +55,7 @@ const Deploymentform = () => {
           <label>Comments/Additional Notes: </label>
           <textarea className='textarea'></textarea>
         </div>
-        <div className='printBtnDiv'>
+        <div className='printBtnDiv no-print'>
           <button className='button is-primary' onClick={printToPdf}>Print PDF</button>
         </div>
       </div>
